@@ -269,7 +269,7 @@ Sample Output :
     543212345
 
 Solution :
-n = int(input())
+n = int(input("Please enter the number))
 for i in range(1,n+1,1):
     for s in range(n-i):
         print(" ",end ="")
@@ -315,7 +315,7 @@ Sample Output :
 Solution :
 n = int(input())
 i = 0
-while(i<n):
+while(i<=n):
     k=1
     j=0
     if(i<n//2):
